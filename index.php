@@ -31,7 +31,6 @@ if(isset($_POST['upload'])){
 	$dir='image/';
 	$width=400;
 	$a = "azmi";
-	$b = "Muhamad Habibi Azmi ganteng";
 	UploadImageResize($new_name, $file, $dir, $width);
 }
 
