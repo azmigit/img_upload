@@ -30,6 +30,7 @@ if(isset($_POST['upload'])){
 	$file='foto';
 	$dir='image/';
 	$width=400;
+	$a = "azmi";
 	UploadImageResize($new_name, $file, $dir, $width);
 }
 
